@@ -27,7 +27,7 @@ print("""
   <body>
     <h1>Compose Message</h1>
 
-    <form action='save.py' method='POST'>
+    <form action='save.py' method='POST'> <!--声明使用post方法传递数据，通过表单的形式-->
     """)
 
 subject = ''
@@ -51,7 +51,7 @@ print("""
      <input type='submit' value='Save'/>
      </form>
      <hr />
-     <a href='main.py'>Back to the main page</a>'
+     <a href='main.py'>Back to the main page</a>
   </body>
 </html>
 """.format(subject))
